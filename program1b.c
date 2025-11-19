@@ -17,7 +17,7 @@ int main() {
 
 
     printf("Enter a double-precision floating-point number (double): ");
-    scanf("%lf", &doubleValue); // Use %lf for double
+    scanf("%lf", &doubleValue);
 
     printf("Enter a single character: ");
      while (getchar() != '\n'); 
@@ -25,7 +25,7 @@ int main() {
 
    
     printf("Enter a string (without spaces): ");
-    scanf("%s", stringValue); //
+    scanf("%s", stringValue); 
 
     printf("\n--- Displaying Entered Values ---\n");
     printf("Integer: %d\n", integerValue);
@@ -35,4 +35,5 @@ int main() {
     printf("String: %s\n", stringValue);
 
     return 0; 
+
 }
